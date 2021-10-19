@@ -1,7 +1,6 @@
 ---
 name: Feature Request
-description: Request new functionality
-title: "[Feature]: "
+description: Got a new idea? We're all ears!
 labels: ["enhancement", "triage"]
 assignees:
   - q
@@ -10,53 +9,35 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this feature request!
-  - type: input
-    id: contact
-    attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info? If you are happy to keep updates in the ticket, leave this blank.
-      placeholder: ex. email@example.com
-    validations:
-      required: false
   - type: textarea
-    id: what-happened
+    id: feature-description
     attributes:
-      label: What happened?
+      label: What's your idea?
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
-      value: "I need a new thing!"
+      value: "As a Geek.Zone Member, I want to..."
     validations:
       required: true
   - type: dropdown
-    id: version
+    id: impact
     attributes:
-      label: Version
-      description: What version of our software are you running?
+      label: Impact
+      description: How important is this?
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - High
+        - Low
     validations:
       required: true
   - type: dropdown
-    id: browsers
+    id: urgency
     attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
+      label: Urgency
+      description: Should this be implemented now or can it be done later?
       options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
-        - Opera
-        - UC
-        - Samsung Internet
-        - Chromium & Derivitives
-  - type: textarea
-    id: logs
-    attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
+        - Now
+        - Later
+    validations:
+      required: true
   - type: checkboxes
     id: terms
     attributes:
