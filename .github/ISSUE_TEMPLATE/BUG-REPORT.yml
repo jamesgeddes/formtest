@@ -12,17 +12,25 @@ body:
   - type: textarea
     id: what-happened
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
+      label: What did you expect?
+      description: What did you expect to happen?
+      placeholder: Tell us what you were expecting!
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What actualliy happened?
+      description: Tell us happened!
+      placeholder: Tell us what you actually see!
     validations:
       required: true
   - type: input
     id: demo
     attributes:
       label: Video demo
-      description: Using your favourite screen recording tool, please share a video that shows us the steps you took to encounter the bug.
-      placeholder: Share the URL or drag and drop the file here
+      description: Using your favourite screen recording tool, please share a video that shows us the steps you took to encounter the bug. Including your narration in the video is helpful.
+      placeholder: http://...
     validations:
       required: false
   - type: dropdown
@@ -80,7 +88,7 @@ body:
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://geek.zone/code-of-conduct)
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
