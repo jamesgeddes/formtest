@@ -8,12 +8,12 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this feature request!
+        Thanks for taking the time to fill out this feature request! This is for requesting new functionality, not for fixing stuff that has broken.
   - type: textarea
     id: feature-description
     attributes:
       label: What's your idea?
-      description: Explain the problem? What is your proposed solution?
+      description: What is the problem that you are experiencing? What is your proposed solution? Feel free to include any screenshots or videos that help to explain.
       placeholder: As a Geek.Zone Member, I want to...
     validations:
       required: true
