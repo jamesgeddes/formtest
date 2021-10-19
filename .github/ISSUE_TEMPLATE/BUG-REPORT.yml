@@ -20,24 +20,16 @@ body:
   - type: textarea
     id: actual-behaviour
     attributes:
-      label: What actualliy happened?
+      label: What actualliy happened? Please share a full description along with screenshots or a screen reccording video that shows us the steps you took to encounter the bug. Including your narration in the video is helpful.
       description: Tell us happened!
       placeholder: Tell us what you actually see!
     validations:
       required: true
-  - type: input
-    id: demo
-    attributes:
-      label: Video demo
-      description: Using your favourite screen recording tool, please share a video that shows us the steps you took to encounter the bug. Including your narration in the video is helpful.
-      placeholder: http://...
-    validations:
-      required: false
   - type: dropdown
     id: impact
     attributes:
       label: Impact
-      description: What impact does this bug have on users?
+      description: How important is this?
       options:
         - High
         - Low
