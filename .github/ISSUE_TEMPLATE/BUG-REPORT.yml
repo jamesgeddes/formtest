@@ -1,6 +1,6 @@
 ---
 name: Bug Report
-description: Something done broke! Tell us about it!
+description: Has something done broke? Tell us about it!
 labels: ["bug", "triage"]
 assignees:
   - q
