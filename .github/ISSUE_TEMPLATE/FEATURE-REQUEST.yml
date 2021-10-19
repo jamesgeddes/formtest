@@ -14,7 +14,7 @@ body:
     attributes:
       label: What's your idea?
       description: What is the problem that you are experiencing? What is your proposed solution? Feel free to include any screenshots or videos that help to explain.
-      placeholder: As a `who`, I want to `what` so that `why`.
+      placeholder: As a [who/role?], I want to [what/action?] so that [why/benifit?].
     validations:
       required: true
   - type: dropdown
