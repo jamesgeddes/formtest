@@ -20,8 +20,8 @@ body:
   - type: textarea
     id: actual-behaviour
     attributes:
-      label: What actualliy happened? Please share a full description along with screenshots or a screen reccording video that shows us the steps you took to encounter the bug. Including your narration in the video is helpful.
-      description: Tell us happened!
+      label: What actualliy happened?
+      description: Tell us happened! Please share a full description along with screenshots or a screen reccording video that shows us the steps you took to encounter the bug. Including your narration in the video is helpful.
       placeholder: Tell us what you actually see!
     validations:
       required: true
