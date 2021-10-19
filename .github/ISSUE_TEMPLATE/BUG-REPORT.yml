@@ -37,7 +37,7 @@ body:
     id: impact
     attributes:
       label: Impact
-      description: What is the user impact of this bug?
+      description: What impact does this bug have on users?
       options:
         - High
         - Low
@@ -47,7 +47,7 @@ body:
     id: urgency
     attributes:
       label: Urgency
-      description: Does this need to be fixed now or can it be done later?
+      description: Should this be fixed now or can it be done later?
       options:
         - Now
         - Later
